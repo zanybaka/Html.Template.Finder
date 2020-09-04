@@ -1,0 +1,12 @@
+﻿//*[@data-marker='item']
+    .//*[@data-marker='item-photo']
+        .//img[@src=$img]
+    .//*[@class='snippet-title-row']
+        .//*[@data-marker='item-title']
+            .//a[@href=$url]/$title
+    .//*[@class='snippet-price-row']
+        .//*[@data-marker='item-price']/$price
+    .//*[@class='data']
+        .//*/$category
+        .//*[@class='item-address-georeferences-item__content']/$address
+        .//*[@data-marker='item-date']/$date

@@ -1,0 +1,8 @@
+﻿//article[@data-zone-name='snippet-card']
+	.//img[@src=$img]
+	.//*[@data-zone-name='title']
+		.//a[@href=$url and @title=$title]
+	.//*[@data-zone-name='rating']
+		.//span/$rating
+	.//*[@data-zone-name='price']/a/$price
+	.//*[@data-zone-name='more-prices']/a/$count

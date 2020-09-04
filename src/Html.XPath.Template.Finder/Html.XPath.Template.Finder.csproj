@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Html.Template.Finder</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Html.Template.Finder\Html.Template.Finder.csproj" />
+    <ProjectReference Include="..\Shared.Utils.Lib\Shared.Utils.Lib.csproj" />
+    <ProjectReference Include="..\Shared.Utils.Web\Shared.Utils.Web.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+﻿//table[@class='model-short-block']
+	.//*[@class='model-short-photo']
+		.//img[@src=$img]
+	.//*[@class='model-short-info']
+		.//a[@href=$url and @title=$title]
+		.//*[@class='model-short-description' and @data-descr=$description]
+	.//*[@class='model-hot-prices-td']
+		.//span/$price
+		.//*[contains(@class,'model-all-shops')]
+			.//sub/$count

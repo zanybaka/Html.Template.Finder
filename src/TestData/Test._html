@@ -1,0 +1,28 @@
+﻿<html>
+<body>
+    <trash></trash>
+    <item class="green" style="all" data-item="alive">
+        <parent>
+            <child attr="one">1</child>
+        </parent>
+    </item>
+    <item class="green" data-item="archive">
+        <child attr="two">2</child>
+    </item>
+    <item class="red" data-item="alive">
+        <child>3</child>
+    </item>
+    <item class="green" data-item="alive">
+        <child attr="four">4</child>
+    </item>
+    <item class="green">
+        <child>5</child>
+    </item>
+    <item class="green" data-item="alive">
+        <parent attr="six">6</parent>
+    </item>
+    <item class="green" data-item="alive">
+        <child>7</child>
+    </item>
+</body>
+</html>

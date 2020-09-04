@@ -1,0 +1,2 @@
+﻿//item[@class='green' and @data-item='alive']
+	.//child[@attr=$attribute]/$innerText
