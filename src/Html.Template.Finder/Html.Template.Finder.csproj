@@ -2,10 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.1</Version>
+    <Authors>Html Template Finder contributors</Authors>
+    <Company>ITProf</Company>
+    <Description>It enables you to parse web sites or any other XML-based content with a predefined template</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/zanybaka/Html.Template.Finder</RepositoryUrl>
+    <PackageTags>csharp html xpath template finder parser</PackageTags>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Shared.Utils.Lib\Shared.Utils.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

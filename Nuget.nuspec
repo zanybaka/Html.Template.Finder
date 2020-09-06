@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Html.XPath.Template.Finder</id>
+    <version>0.0.2</version>
+    <authors>Html template finder contributors</authors>
+    <owners>Vaspo</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/zanybaka/Html.Template.Finder</projectUrl>
+    <description>It enables you to parse web sites or any other XML-based content with a predefined template</description>
+    <releaseNotes>Initial version</releaseNotes>
+    <tags>csharp html xpath template finder parser</tags>
+    <repository url="https://github.com/zanybaka/Html.Template.Finder" />
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+        <dependency id="HtmlAgilityPack" version="1.11.20" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="LICENSE" target="LICENSE" />
+    <file src="src\Html.XPath.Template.Finder\bin\$configuration$\netstandard2.0\Html.XPath.Template.Finder.dll" target="lib\netstandard2.0\Html.XPath.Template.Finder.dll" />
+    <file src="src\Html.XPath.Template.Finder\bin\$configuration$\netstandard2.0\Html.Template.Finder.dll" target="lib\netstandard2.0\Html.Template.Finder.dll" />
+    <file src="src\Html.XPath.Template.Finder\bin\$configuration$\netstandard2.0\Shared.Utils.Lib.dll" target="lib\netstandard2.0\Shared.Utils.Lib.dll" />
+    <file src="src\Html.XPath.Template.Finder\bin\$configuration$\netstandard2.0\Shared.Utils.Web.dll" target="lib\netstandard2.0\Shared.Utils.Web.dll" />
+  </files>
+</package>

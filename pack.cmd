@@ -1,0 +1,1 @@
+.nuget\nuget.exe pack Nuget.nuspec -properties Configuration=Release

@@ -3,6 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Html.Template.Finder</RootNamespace>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <Description>It enables you to parse web sites or any other XML-based content with a predefined template</Description>
+    <Copyright></Copyright>
+    <Version>0.0.2</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Vaspo</Authors>
+    <Company>ITProf</Company>
+    <PackageTags>csharp html xpath template finder parser</PackageTags>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/zanybaka/Html.Template.Finder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zanybaka/Html.Template.Finder</RepositoryUrl>
+    <IncludeReferencedProjects>true</IncludeReferencedProjects>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,5 +24,20 @@
     <ProjectReference Include="..\Shared.Utils.Lib\Shared.Utils.Lib.csproj" />
     <ProjectReference Include="..\Shared.Utils.Web\Shared.Utils.Web.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <!--ItemGroup>
+    <None Include="bin\$(ConfigurationName)\$(TargetFramework)\*.dll">
+      <Pack>True</Pack>
+      <Visible>False</Visible>
+      <PackagePath>lib\$(TargetFramework)</PackagePath>
+    </None>
+  </ItemGroup-->
 
 </Project>
