@@ -93,6 +93,12 @@ Code examples
 
 [AvitoHtmlXPathTemplateFinderFixture.cs](src/Html.XPath.Template.Finder.Tests/Avito/AvitoHtmlXPathTemplateFinderFixture.cs)
 
+Nuget
+---
+
+- https://www.nuget.org/packages/Html.XPath.Template.Finder/
+- *Install-Package Html.XPath.Template.Finder*
+
 References
 ---
 
